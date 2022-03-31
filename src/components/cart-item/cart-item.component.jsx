@@ -1,4 +1,5 @@
 import './cart-item.styles.scss';
+import CartContext from '../../contexts/cart.context';
 
 const CartItem = ({ cartItem }) => {
     const { name, imageUrl, price, quantity } = cartItem;
